@@ -22,7 +22,7 @@ if __name__ == '__main__':
     team = str(sys.argv[1])
     color = str(sys.argv[2])
 
-    target_folder = os.path.expanduser('~/GoogleDrive/.shared/MEAM 520 F20/FinalProjectSubmissions')
+    target_folder = os.path.expanduser('~/FinalProjectSubmissions')
 
     submission_path = os.path.join(target_folder, "Team"+team)
 
